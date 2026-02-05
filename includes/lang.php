@@ -13,7 +13,8 @@ if (isset($_GET['lang'])) {
     $req = strtolower(trim($_GET['lang']));
     if (in_array($req, $available_langs, true)) {
         $_SESSION['panel_lang'] = $req;
-        setcookie('panel_lang', $req, time() + (86400 * 365), "/");
+        $isSecure = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
+        setcookie('panel_lang', $req, time() + (86400 * 365), "/", "", $isSecure, true);
     }
 }
 
@@ -28,6 +29,8 @@ if (!isset($_SESSION['panel_lang']) && isset($_COOKIE['panel_lang'])) {
 // Default language
 if (!isset($_SESSION['panel_lang'])) {
     $_SESSION['panel_lang'] = 'it';
+    $isSecure = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
+    setcookie('panel_lang', 'it', time() + (86400 * 365), "/", "", $isSecure, true);
 }
 
 $PANEL_LANG = $_SESSION['panel_lang'];
