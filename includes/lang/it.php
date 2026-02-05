@@ -1,0 +1,2 @@
+<?php
+return {"logout": "Esci", "update_domain": "Aggiorna Dominio", "design_settings": "Impostazioni design", "themes": "Temi", "language": "Lingua", "save": "Salva", "cancel": "Annulla", "users": "Utenti", "playlists": "Playlist", "settings": "Impostazioni", "dashboard": "Dashboard", "profile": "Profilo", "login": "Accedi", "username": "Nome utente", "password": "Password", "remember_me": "Ricordami", "sign_in": "Entra"};

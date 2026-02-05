@@ -1,0 +1,2 @@
+<?php
+return {"logout": "Logout", "update_domain": "Update Domain", "design_settings": "Design settings", "themes": "Themes", "language": "Language", "save": "Save", "cancel": "Cancel", "users": "Users", "playlists": "Playlists", "settings": "Settings", "dashboard": "Dashboard", "profile": "Profile", "login": "Login", "username": "Username", "password": "Password", "remember_me": "Remember me", "sign_in": "Sign in"};

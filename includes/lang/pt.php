@@ -1,0 +1,2 @@
+<?php
+return {"logout": "Sair", "update_domain": "Atualizar Dominio", "design_settings": "Configuração design", "themes": "Temas", "language": "Idioma", "save": "Salvar", "cancel": "Cancelar", "users": "Usuários", "playlists": "Playlists", "settings": "Configurações", "dashboard": "Painel", "profile": "Perfil", "login": "Login", "username": "Usuário", "password": "Senha", "remember_me": "Lembrar-me", "sign_in": "Entrar"};
