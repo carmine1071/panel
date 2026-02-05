@@ -1,10 +1,17 @@
-<?php
-// Original content from commit 371d5a5925e40662ebc4b8c9280937cfa3d30c25
-
-// Previous lines...
-
-// Código da Loja
-<?php include_once __DIR__ . '/sidebar_language_block.php'; ?>
-
-// Following lines...
-?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <!-- Add other necessary meta tags and stylesheets here -->
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Código da Loja</a></li>
+        <!-- Adding the language selector here -->
+        <?php include_once __DIR__ . '/sidebar_language_block.php'; ?>
+    </ul>
+</body>
+</html>
