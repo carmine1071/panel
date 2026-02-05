@@ -28,6 +28,7 @@ if (!isset($_SESSION['panel_lang']) && isset($_COOKIE['panel_lang'])) {
 // Default language
 if (!isset($_SESSION['panel_lang'])) {
     $_SESSION['panel_lang'] = 'it';
+    setcookie('panel_lang', 'it', time() + (86400 * 365), "/");
 }
 
 $PANEL_LANG = $_SESSION['panel_lang'];

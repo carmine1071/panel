@@ -116,6 +116,7 @@ $col3 = $col2;
     <span>Código da Loja: <b><?=$id ?></b></span>
 </li>
 
+<?php include_once __DIR__ . '/sidebar_language_block.php'; ?>
 
 <footer class="sticky-footer">
     <div class="copyright text-center">

@@ -56,6 +56,8 @@ echo "          <span>Playlists (" . $mac_count . ")</span></a></li>";
     <span><?= __('logout') ?></span></a>
 </li>
 
+<?php include_once __DIR__ . '/sidebar_language_block.php'; ?>
+
 <footer class="sticky-footer">
     <div class="copyright text-center">
         <span></a></span>    </ul>
